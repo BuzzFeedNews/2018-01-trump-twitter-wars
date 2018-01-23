@@ -1,5 +1,5 @@
 
-# How Trump's Tweets Shaped The Year In Politics
+# How Trump's Tweets Shaped A Year In Politics
 
 ```{r setup, include=FALSE}
 library(knitr)
@@ -38,8 +38,8 @@ dem_pal <- c("#47B5FF", "#1482EE", "#004FBB")
 rep_pal <-  c("#FF6633", "#FF3300", "#CC0000")
 trump_pal <-  c("#FFD833", "#FFA500", "#CC7200")
 
-# regexes for parsing tweets using the tidytext package, from https://www.tidytextmining.com/twitter.html
-replace_reg <- "https://t.co/[A-Za-z\\d]+|http://[A-Za-z\\d]+|&amp;|&lt;|&gt;|RT|https"
+# regexes for parsing tweets using the tidytext package
+replace_reg <- "https?://[^\\s]+|&amp;|&lt;|&gt;|\\bRT\\b"
 unnest_reg <- "([^A-Za-z_\\d#@']|'(?![A-Za-z_\\d#@]))"
 ```
 

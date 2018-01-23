@@ -1,4 +1,4 @@
-# How Trump's Tweets Shaped The Year In Politics
+# How Trump's Tweets Shaped A Year In Politics
 
 [R](https://www.r-project.org/) code to reproduce the analysis underlying this Jan. 23, 2018 [BuzzFeed News article](https://www.buzzfeed.com/peteraldhous/trump-twitter-wars) analyzing a year of tweets from President Donald Trump and all members of Congress.
 
