@@ -1,5 +1,5 @@
 
-# How Trump's Tweets Shaped A Year In Politics
+# All The President’s Tweets — And Every Lawmaker’s Too
 
 ```{r setup, include=FALSE}
 library(knitr)
