@@ -30,6 +30,9 @@ library(stringr)
 library(wordcloud)
 library(DT)
 
+# set working directory
+setwd("C:/Users/rsonika001/Documents/GitHub/2018-01-trump-twitter-wars")
+
 # palette for Congressional Democrats and Republicans, plus Trump
 party_pal <- c("#1482EE","#FF3300", "#FFA500")
 
